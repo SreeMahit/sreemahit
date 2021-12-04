@@ -1,12 +1,11 @@
-// import AOS from "aos";
-// import "aos/dist/aos.css";
-
-// AOS.init();
-
 const button = document.getElementById("case-study");
 const section = document.getElementsByClassName("project-popup");
 const wrapper = document.getElementsByClassName("project-popup-wrapper");
 const close = document.getElementById("close-popup");
+
+// The following functions control the functionality of the popup.
+// They control both the showing and hiding the popup.
+// It also controls the aanimation of fading in and fading out the popup.
 
 function openPopUp() {
   section[0].classList.remove("hidden");
