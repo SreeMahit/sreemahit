@@ -5,7 +5,35 @@
     <link rel="stylesheet" href="css/style.css" type="text/css" />
     <link rel="stylesheet" href="css/cursor.css" type="text/css" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <script
+      type="text/javascript"
+      src="http://code.jquery.com/jquery.min.js"
+    ></script>
   </head>
+
+  <style>
+    #loading {
+      background: url("images/loader.gif") no-repeat center center;
+      background-color: #ffffff;
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      z-index: 99999999;
+    }
+  </style>
+
+  <div id="loading"></div>
+
+  <script>
+    //function hideLoader() {$('#loading').fadeOut();}
+    //setTimeout(function hideLoader() {$('#loading').fadeOut();}, 8 * 1000);
+    //$(document).ready(function hideLoader() {$('#loading').fadeOut()});
+    window.onload = function () {
+      $("#loading").fadeOut();
+    };
+  </script>
 
   <body>
     <iframe
