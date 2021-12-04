@@ -168,7 +168,7 @@ li:hover {
   color: #252525;
 }
 
-.main-project-title h5 {
+.main-project-title h4 {
   font-size: 133%;
   font-family: "Author-Semibold";
   transform: translateY(1.4em);
@@ -240,7 +240,7 @@ li:hover {
     font-size: 350%;
   }
 
-  .main-project-title h5 {
+  .main-project-title h4 {
     margin-bottom: 2em;
   }
 
@@ -436,7 +436,7 @@ li:hover {
   color: #fff;
 }
 
-.project-hero h5 {
+.project-hero h4 {
   font-size: 133%;
   font-family: "Author-Semibold";
   color: #c0c0c0;
@@ -448,7 +448,7 @@ li:hover {
   margin-bottom: 2em;
 }
 
-.project-details h5 {
+.project-details h4 {
   font-size: 133%;
   font-family: "Author-Semibold";
   margin-bottom: 0.5em;
