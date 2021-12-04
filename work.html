@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="css/grid.css" type="text/css" />
     <link rel="stylesheet" href="css/style.css" type="text/css" />
     <link rel="stylesheet" href="css/cursor.css" type="text/css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
   </head>
   <body>
@@ -19,12 +20,21 @@
       </div>
     </nav>
 
-    <section class="row main-project">
+    <section
+      class="row main-project"
+      data-aos="fade-up"
+      data-aos-anchor-placement="top-center"
+    >
       <div class="main-project-title">
         <h3>Nutanix</h3>
         <h5>B2B Cloud Management Solutions</h5>
       </div>
-      <div class="main-project-wrapper">
+      <div
+        class="main-project-wrapper"
+        data-aos="fade-up"
+        data-aos-delay="100"
+        data-aos-anchor-placement="top-center"
+      >
         <div class="main-project-details">
           <div>
             <p>
@@ -36,7 +46,7 @@
             </p>
           </div>
           <div>
-            <a>Read Case Study</a>
+            <p>Case study coming soon!</p>
           </div>
         </div>
         <div class="main-project-image">
@@ -46,7 +56,11 @@
       </div>
     </section>
 
-    <section class="row main-project">
+    <section
+      class="row main-project"
+      data-aos="fade-up"
+      data-aos-anchor-placement="top-center"
+    >
       <div class="main-project-title">
         <h3>Vocle</h3>
         <h5>Voice Training for the Hearing Impaired</h5>
@@ -62,7 +76,7 @@
             </p>
           </div>
           <div>
-            <a>Read Case Study</a>
+            <a id="case-study" onclick="openPopUp()">Read Case Study</a>
           </div>
         </div>
         <div class="main-project-image">
@@ -75,7 +89,9 @@
     <section class="project-popup hidden">
       <div class="project-popup-wrapper">
         <div class="close-popup">
-          <a><img src="Images/close-project.png" /></a>
+          <a id="close-popup" onclick="closePopUp()"
+            ><img src="Images/close-project.png"
+          /></a>
         </div>
 
         <div class="project-hero-image">
@@ -235,12 +251,21 @@
       </div>
     </section>
 
-    <section class="row main-project">
+    <section
+      class="row main-project"
+      data-aos="fade-up"
+      data-aos-anchor-placement="top-center"
+    >
       <div class="main-project-title">
         <h3>Capsules</h3>
         <h5>Redefining How News is Consumed</h5>
       </div>
-      <div class="main-project-wrapper">
+      <div
+        class="main-project-wrapper"
+        data-aos="fade-up"
+        data-aos-delay="100"
+        data-aos-anchor-placement="top-center"
+      >
         <div class="main-project-details">
           <div>
             <p>
@@ -251,7 +276,7 @@
             </p>
           </div>
           <div>
-            <a>Read Case Study</a>
+            <p>Case study coming soon!</p>
           </div>
         </div>
         <div class="main-project-image">
@@ -261,12 +286,21 @@
       </div>
     </section>
 
-    <section class="row main-project">
+    <section
+      class="row main-project"
+      data-aos="fade-up"
+      data-aos-anchor-placement="top-center"
+    >
       <div class="main-project-title">
         <h3>VR Onboarding</h3>
         <h5>Designing Experiences for Oculus Go</h5>
       </div>
-      <div class="main-project-wrapper">
+      <div
+        class="main-project-wrapper"
+        data-aos="fade-up"
+        data-aos-delay="100"
+        data-aos-anchor-placement="top-center"
+      >
         <div class="main-project-details">
           <div>
             <p>
@@ -277,7 +311,7 @@
             </p>
           </div>
           <div>
-            <a>Read Case Study</a>
+            <p>Case study coming soon!</p>
           </div>
         </div>
         <div class="main-project-image">
@@ -303,13 +337,20 @@
 
         <div class="footer-btns">
           <div class="col span-1-of-2">
-            <a href="work.html">My Work</a>
+            <a href="about.html">Who am I?</a>
           </div>
           <div class="footer-btns-right col span-1-of-2">
             <ul class="footer-links">
-              <li><a href="#">M</a></li>
-              <li><a href="#">L</a></li>
-              <li><a href="#">T</a></li>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://linkedin.com/in/sreemahitmunakala"
+                  >L</a
+                >
+              </li>
+              <li>
+                <a target="_blank" href="https://twitter.com/mahitmeup">T</a>
+              </li>
             </ul>
           </div>
         </div>
@@ -320,6 +361,11 @@
       <div class="cursor__content"></div>
     </div> -->
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="./JS/main.js"></script>
     <script src="https://player.vimeo.com/api/player.js"></script>
   </body>
 </html>

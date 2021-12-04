@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="css/grid.css" type="text/css" />
     <link rel="stylesheet" href="css/style.css" type="text/css" />
     <link rel="stylesheet" href="css/cursor.css" type="text/css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
   </head>
   <body>
@@ -19,12 +20,21 @@
       </div>
     </nav>
 
-    <section class="row main-project">
+    <section
+      class="row main-project"
+      data-aos="fade-up"
+      data-aos-anchor-placement="top-center"
+    >
       <div class="main-project-title">
         <h3>This is me!</h3>
         <h5>Sree Mahit Munakala.</h5>
       </div>
-      <div class="main-project-wrapper">
+      <div
+        class="main-project-wrapper"
+        data-aos="fade-up"
+        data-aos-delay="100"
+        data-aos-anchor-placement="top-center"
+      >
         <div class="main-project-details">
           <div>
             <p>
@@ -47,7 +57,12 @@
       </div>
     </section>
 
-    <section class="row full-screen about-header">
+    <section
+      class="row full-screen about-header"
+      data-aos="fade-up"
+      data-aos-delay="100"
+      data-aos-anchor-placement="top-center"
+    >
       <div class="row2 section-header">
         <h2>Music's my jam!</h2>
         <p>
@@ -100,5 +115,10 @@
     <!-- <div id="cursor" class="cursor">
       <div class="cursor__content"></div>
     </div> -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="./JS/main.js"></script>
   </body>
 </html>
