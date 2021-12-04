@@ -162,13 +162,13 @@ li:hover {
   transform: translateY(5em);
 }
 
-.main-project-title h3 {
+.main-project-title h1 {
   font-family: "Author-Bold";
   font-size: 500%;
   color: #252525;
 }
 
-.main-project-title h4 {
+.main-project-title h2 {
   font-size: 133%;
   font-family: "Author-Semibold";
   transform: translateY(1.4em);
