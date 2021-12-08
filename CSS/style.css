@@ -75,6 +75,20 @@ a {
   z-index: -10;
 }
 
+.home-landing {
+  position: relative;
+  width: 100vw;
+}
+
+.home-landing img {
+  position: absolute;
+  z-index: -10;
+  min-width: 100vw;
+  max-height: 100vh;
+  object-fit: cover;
+  overflow-y: hidden;
+}
+
 .home {
   height: 100vh;
   display: flex;
